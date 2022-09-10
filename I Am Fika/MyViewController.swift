@@ -8,22 +8,42 @@
 import UIKit
 
 class MyViewController: UIViewController {
-
+    let contentView = UIView()
+    
+    
+    let titleLabel = UILabel()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+//        view.backgroundColor = .green
+        setUpContentView()
+    }
+    
+    func setUpContentView() {
+        
+        titleLabel.text = "I am Fikasentani"
+        
+        view.addSubview(contentView)
+        contentView.addSubview(titleLabel)
+        
+        
+        
+        contentView.translatesAutoresizingMaskIntoConstraints = false
+        
+        contentView.heightAnchor.constraint(equalToConstant: view.frame.height / 3).isActive = true
+        contentView.topAnchor.constraint(equalTo: view.topAnchor, constant: 45).isActive = true
+        contentView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 5).isActive = true
+        contentView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -5).isActive = true
+        
+        contentView.backgroundColor = .cyan
+        
+        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        titleLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 2).isActive = true
+        titleLabel.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 2).isActive = true
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   
 }

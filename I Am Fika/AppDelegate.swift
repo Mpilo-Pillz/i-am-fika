@@ -20,7 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.backgroundColor = .systemTeal
-        window?.rootViewController = startScreenNavController
+//        window?.rootViewController = startScreenNavController
+        window?.rootViewController = MyViewController()
 //        window?.rootViewController = ViewController()
 //        window?.rootViewController = MyStackViewController()
         
