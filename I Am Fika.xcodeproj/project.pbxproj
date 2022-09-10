@@ -62,13 +62,13 @@
 			children = (
 				C4323FDD28C3BC3D0039D8CE /* AppDelegate.swift */,
 				C4323FE128C3BC3D0039D8CE /* LoginScreenViewController.swift */,
+				C4A698A628CC670400CD669A /* LoginScreenView.swift */,
 				C4323FF428C3C7F70039D8CE /* MyView.swift */,
 				C4323FE928C3BC3F0039D8CE /* Assets.xcassets */,
 				C4323FEB28C3BC3F0039D8CE /* LaunchScreen.storyboard */,
 				C4323FEE28C3BC3F0039D8CE /* Info.plist */,
 				C4323FE628C3BC3D0039D8CE /* I_Am_Fika.xcdatamodeld */,
 				C4323FF628C3D7540039D8CE /* MyStackViewController.swift */,
-				C4A698A628CC670400CD669A /* LoginScreenView.swift */,
 			);
 			path = "I Am Fika";
 			sourceTree = "<group>";

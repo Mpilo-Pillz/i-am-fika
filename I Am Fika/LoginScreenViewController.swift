@@ -37,11 +37,13 @@ class LoginScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .orange
+        setupLoginContentView()
     }
     
     @objc func loginButtonPressed(sender: UIButton) {
         print("PRESSED")
         loginContentView.backgroundColor = . yellow
+        
     }
 }
 
