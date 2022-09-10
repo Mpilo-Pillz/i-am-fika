@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C4323FDE28C3BC3D0039D8CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4323FDD28C3BC3D0039D8CE /* AppDelegate.swift */; };
-		C4323FE028C3BC3D0039D8CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4323FDF28C3BC3D0039D8CE /* SceneDelegate.swift */; };
-		C4323FE228C3BC3D0039D8CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4323FE128C3BC3D0039D8CE /* ViewController.swift */; };
-		C4323FE528C3BC3D0039D8CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4323FE328C3BC3D0039D8CE /* Main.storyboard */; };
+		C4323FE228C3BC3D0039D8CE /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4323FE128C3BC3D0039D8CE /* LoginScreenViewController.swift */; };
 		C4323FE828C3BC3D0039D8CE /* I_Am_Fika.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4323FE628C3BC3D0039D8CE /* I_Am_Fika.xcdatamodeld */; };
 		C4323FEA28C3BC3F0039D8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4323FE928C3BC3F0039D8CE /* Assets.xcassets */; };
 		C4323FED28C3BC3F0039D8CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4323FEB28C3BC3F0039D8CE /* LaunchScreen.storyboard */; };
+		C4323FF528C3C7F70039D8CE /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4323FF428C3C7F70039D8CE /* MyView.swift */; };
+		C4323FF728C3D7540039D8CE /* MyStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4323FF628C3D7540039D8CE /* MyStackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C4323FDA28C3BC3D0039D8CE /* I Am Fika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Am Fika.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4323FDD28C3BC3D0039D8CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4323FDF28C3BC3D0039D8CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4323FE128C3BC3D0039D8CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C4323FE428C3BC3D0039D8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4323FE128C3BC3D0039D8CE /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		C4323FE728C3BC3D0039D8CE /* I_Am_Fika.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = I_Am_Fika.xcdatamodel; sourceTree = "<group>"; };
 		C4323FE928C3BC3F0039D8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4323FEC28C3BC3F0039D8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4323FEE28C3BC3F0039D8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4323FF428C3C7F70039D8CE /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		C4323FF628C3D7540039D8CE /* MyStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				C4323FDD28C3BC3D0039D8CE /* AppDelegate.swift */,
-				C4323FDF28C3BC3D0039D8CE /* SceneDelegate.swift */,
-				C4323FE128C3BC3D0039D8CE /* ViewController.swift */,
-				C4323FE328C3BC3D0039D8CE /* Main.storyboard */,
+				C4323FE128C3BC3D0039D8CE /* LoginScreenViewController.swift */,
+				C4323FF428C3C7F70039D8CE /* MyView.swift */,
 				C4323FE928C3BC3F0039D8CE /* Assets.xcassets */,
 				C4323FEB28C3BC3F0039D8CE /* LaunchScreen.storyboard */,
 				C4323FEE28C3BC3F0039D8CE /* Info.plist */,
 				C4323FE628C3BC3D0039D8CE /* I_Am_Fika.xcdatamodeld */,
+				C4323FF628C3D7540039D8CE /* MyStackViewController.swift */,
 			);
 			path = "I Am Fika";
 			sourceTree = "<group>";
@@ -130,7 +130,6 @@
 			files = (
 				C4323FED28C3BC3F0039D8CE /* LaunchScreen.storyboard in Resources */,
 				C4323FEA28C3BC3F0039D8CE /* Assets.xcassets in Resources */,
-				C4323FE528C3BC3D0039D8CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +140,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4323FE228C3BC3D0039D8CE /* ViewController.swift in Sources */,
+				C4323FF528C3C7F70039D8CE /* MyView.swift in Sources */,
+				C4323FE228C3BC3D0039D8CE /* LoginScreenViewController.swift in Sources */,
 				C4323FDE28C3BC3D0039D8CE /* AppDelegate.swift in Sources */,
 				C4323FE828C3BC3D0039D8CE /* I_Am_Fika.xcdatamodeld in Sources */,
-				C4323FE028C3BC3D0039D8CE /* SceneDelegate.swift in Sources */,
+				C4323FF728C3D7540039D8CE /* MyStackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C4323FE328C3BC3D0039D8CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4323FE428C3BC3D0039D8CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C4323FEB28C3BC3F0039D8CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,7 +287,6 @@
 				INFOPLIST_FILE = "I Am Fika/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +313,6 @@
 				INFOPLIST_FILE = "I Am Fika/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
