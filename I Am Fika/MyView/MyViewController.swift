@@ -20,6 +20,11 @@ class MyViewController: UIViewController {
         return label
     }()
     
+    let myImage: UIImageView = {
+        let image = UIImageView()
+        return image
+    }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
